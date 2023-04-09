@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome'
 import { faCartShopping } from '@fortawesome/free-solid-svg-icons'
+import { CartContext, ProductContext } from '../App';
 
 const Header = () => {
+    // const products = useContext(ProductContext)
+    // console.log(products);
+    // const inArray = useContext(CartContext);
+    // console.log(inArray);
+    const [cart, setCart] = useContext(CartContext)
+    console.log(cart.length);
     return (
         <div className=''>
             <div className="navbar bg-gray-900 text-white">
@@ -18,8 +25,9 @@ const Header = () => {
                         <Link to='/shop' className=' rounded px-2 py-1'>
                             Shop
                         </Link>
-                        <Link to='/cart' className=' rounded px-2 py-1'>
+                        <Link to='/cart' className='relative rounded px-2 py-1'>
                             <FontAwesomeIcon icon={faCartShopping} />
+                            <p className='text-sm absolute top-0 left-7 text-yellow-400'>{cart.length}</p>
                         </Link>
                         <Link to='/about' className=' rounded px-2 py-1'>
                             About

@@ -1,12 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import SingelCard from './SingelCard';
 import { addToDatabase } from '../db/db';
+import { ProductContext } from '../App';
 
 const Shop = () => {
-    const {products} = useLoaderData()
+    // const {products} = useLoaderData()
     // console.log(products,inArray);
     // 
+    const products = useContext(ProductContext)
+    // console.log(products);
     const handleAddToCart = id => {
         addToDatabase(id);
     }
