@@ -3,7 +3,7 @@ import { Link, useLoaderData } from 'react-router-dom';
 import CartItems from './CartItems/CartItems';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome'
 import { faBangladeshiTakaSign } from '@fortawesome/free-solid-svg-icons'
-import { removeFromDB } from '../db/db';
+import { deleteShopingCart, removeFromDB } from '../db/db';
 
 const Cart = () => {
     const { inArray } = useLoaderData();
@@ -20,6 +20,9 @@ const Cart = () => {
         removeFromDB(id)
     }
     // delete shoping cart
+    const deleteCartHandle = () => {
+        deleteShopingCart()
+    }
     return (
         <div className='min-h-screen flex justify-center '>
             
@@ -31,6 +34,7 @@ const Cart = () => {
                     key={pItem.id}
                     pItem={pItem}
                     handleRemoveCart={handleRemoveCart}
+
                 ></CartItems>)}
                 </ul>
                 <div className='space-y-1 text-right mt-2'>
@@ -44,7 +48,7 @@ const Cart = () => {
                 </div>
                 <div className='flex justify-end space-x-4 mt-2'>
                     {
-                        inArray.length > 0 ? <button className='btn-outline btn-warning rounded-md px-1'>
+                        inArray.length > 0 ? <button onClick={deleteCartHandle} className='btn-outline btn-warning rounded-md px-1'>
                         Clear Cart
                     </button> : <Link to='/shop'><button className='btn-outline btn-warning rounded-md px-1'>
                         Back to Shop

@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome'
 import { faRemove,faBangladeshiTakaSign } from '@fortawesome/free-solid-svg-icons'
 
-const CartItems = ({ pItem,handleRemoveCart }) => {
+const CartItems = ({ pItem,handleRemoveCart}) => {
     const { img, name, quantity, price, id } = pItem;
     
     // console.log(pItem);

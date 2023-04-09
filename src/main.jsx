@@ -20,6 +20,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
+    loader: customData,
     errorElement: <ErrorElement></ErrorElement>,
     children: [
       {
