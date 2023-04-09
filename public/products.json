@@ -1,0 +1,93 @@
+[
+    {
+        "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+        "category": "Baby Dress",
+        "name": "Baby Fotua",
+        "seller": "Onuragi",
+        "price": 499,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3725,
+        "img": "https://i.ibb.co/WWB1FkN/image-7.png",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
+        "category": "Baby Dress",
+        "name": "YELLO RED MIX BABY DRESS",
+        "seller": "Onuragi",
+        "price": 699,
+        "stock": 19,
+        "ratings": 5,
+        "ratingsCount": 4355,
+        "img": "https://i.ibb.co/3pFK9Cp/image-16.png",
+        "shipping": 14,
+        "quantity": 0
+    },
+    {
+        "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
+        "category": "Baby Dress",
+        "name": "RED BABY DRESS",
+        "seller": "Onuragi",
+        "price": 599,
+        "stock": 20,
+        "ratings": 4,
+        "ratingsCount": 3972,
+        "img": "https://i.ibb.co/TH0GVCC/image-18.png",
+        "shipping": 1,
+        "quantity": 0
+    },
+    {
+        "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
+        "category": "Baby Dress",
+        "name": "RED WHITE BALL PRINT",
+        "seller": "Onuragi",
+        "price": 700,
+        "stock": 10,
+        "ratings": 5,
+        "ratingsCount": 1764,
+        "img": "https://i.ibb.co/m83yVcv/image-19.png",
+        "shipping": 32,
+        "quantity": 0
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "category": "Baby Dress",
+        "name": "WHITE DRESS WITH HANDICRFT",
+        "seller": "Onuragi",
+        "price": 700,
+        "stock": 11,
+        "ratings": 4,
+        "ratingsCount": 799,
+        "img": "https://i.ibb.co/Tq5WKth/image-20.png",
+        "shipping": 49,
+        "quantity": 0
+    },
+    {
+        "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
+        "category": "Baby Dress",
+        "name": "RED GOLDEN ROUND BD",
+        "seller": "Onuragi",
+        "price": 700,
+        "stock": 19,
+        "ratings": 3,
+        "ratingsCount": 4372,
+        "img": "https://i.ibb.co/XbjdhmX/image-23.png",
+        "shipping": 19,
+        "quantity": 0
+    },
+    {
+        "id": "9c0c13c2-54e4-4001-809b-afbd9d84037d",
+        "category": "Baby Dress",
+        "name": "TOP CLASS WHITE DRESS",
+        "seller": "Onuragi",
+        "price": 700,
+        "stock": 1,
+        "ratings": 4,
+        "ratingsCount": 2870,
+        "img": "https://i.ibb.co/4Y0fWcc/image-26.png",
+        "shipping": 15,
+        "quantity": 0
+    }
+]
